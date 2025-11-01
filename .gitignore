@@ -1,0 +1,24 @@
+# Node modules & logs
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Playwright reports
+playwright-report/
+test-results/
+videos/
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JMeter results
+*.jtl
+*.csv
+
+# Selenium IDE
+*.side
