@@ -1,0 +1,264 @@
+{
+  "id": "ea69e1cc-9787-4522-a2f5-48329d9a64b0",
+  "version": "2.0",
+  "name": "Flujo_B_GestionCuenta",
+  "url": "https://jpetstore.aspectran.com",
+  "tests": [{
+    "id": "0de337c6-d6cd-4177-a821-0701932f5a6e",
+    "name": "JPetStore_Funcional_Test.side",
+    "commands": [{
+      "id": "25771b70-7534-4083-866b-97e819c41b93",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f1da9a8-95f3-4a88-9dc7-38025fc6679e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x878",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2440cf52-a16b-475f-821d-2f3f3866a947",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up",
+      "targets": [
+        ["linkText=Sign Up", "linkText"],
+        ["css=.btn-warning", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up')]", "xpath:link"],
+        ["xpath=//div[@id='jpetstore-content']/div/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/newAccountForm')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "501cac59-cab0-4f04-9b0b-f3fc6ff9dfaa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.btn-outline-light", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='jpetstore-content']/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/signonForm')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dc5fc0f-e3e4-4858-b80c-9c918c2d92e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1735e2a8-9d6f-4406-85de-d2ba5def9531",
+      "comment": "",
+      "command": "click",
+      "target": "css=#dropdownMenuButton > .bi",
+      "targets": [
+        ["css=#dropdownMenuButton > .bi", "css:finder"],
+        ["xpath=//a[@id='dropdownMenuButton']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d25c4a35-df9f-454c-8d1e-0d7b4e66d51e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.show > li:nth-child(1) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='jpetstore-content']/div/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/editAccountForm')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c655b9-7932-4751-931a-4ec31dddb99d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.table:nth-child(4) tr:nth-child(1) > td:nth-child(1)",
+      "targets": [
+        ["css=.table:nth-child(4) tr:nth-child(1) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'First name:')]", "xpath:innerText"]
+      ],
+      "value": "197.33331298828125,27.600006103515625"
+    }, {
+      "id": "7d0ff8d1-3289-485d-8697-7553f6ca1970",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.table:nth-child(4) tr:nth-child(1) > td:nth-child(1)",
+      "targets": [
+        ["css=.table:nth-child(4) tr:nth-child(1) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'First name:')]", "xpath:innerText"]
+      ],
+      "value": "197.33331298828125,27.600006103515625"
+    }, {
+      "id": "381d64ab-51df-411d-b0df-05401aa84e81",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.table:nth-child(4) tr:nth-child(1) > td:nth-child(1)",
+      "targets": [
+        ["css=.table:nth-child(4) tr:nth-child(1) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'First name:')]", "xpath:innerText"]
+      ],
+      "value": "197.33331298828125,27.600006103515625"
+    }, {
+      "id": "89b25c65-4edf-4650-9222-4a20f069907f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.table:nth-child(4) tr:nth-child(1)",
+      "targets": [
+        ["css=.table:nth-child(4) tr:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f7b138-0a61-43f4-a9f3-e66cf5dcf67a",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=tr:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80998e35-3edd-446b-84ed-a8230c7ba981",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=tr:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "TestUser"
+    }, {
+      "id": "02cb2c0b-4bba-459e-b956-c0f79f336a25",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.table:nth-child(4) tr:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5259f4b9-17da-45bb-9c48-a2ad409b8065",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.table:nth-child(4) tr:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "2f8387d9-07ca-4525-ab58-27ca8c3b64f8",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=tr:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63902c08-29ce-48a9-9862-9c6765864d40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Account Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "471d57e3-628d-489f-a3f1-b97706fac405",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-4 > .row",
+      "targets": [
+        ["css=.py-4 > .row", "css:finder"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f53c524-a291-4eb4-8d8e-01e66f7ca9c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-4 > .row",
+      "targets": [
+        ["css=.py-4 > .row", "css:finder"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d18ff0b-ac57-46aa-b1e8-0733ce8cc56c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn",
+      "targets": [
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='jpetstore-content']/div[2]/div/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Account Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8ac8c7af-92e9-4b45-8049-b1d852c7b793",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0de337c6-d6cd-4177-a821-0701932f5a6e"]
+  }],
+  "urls": ["https://jpetstore.aspectran.com/"],
+  "plugins": []
+}
